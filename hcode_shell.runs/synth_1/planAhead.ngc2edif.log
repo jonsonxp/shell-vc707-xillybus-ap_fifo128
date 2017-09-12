@@ -1,0 +1,49 @@
+Release 14.7 - ngc2edif P_INT.20160902 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design xillybus_core.ngc ...
+WARNING:NetListWriters:298 - No output is written to xillybus_core.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus packet_rx_axi_tlp_64_ins/header2[10 : 2]
+   on block xillybus_core is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus rd_arbiter_ins/recvbuf_channel[4 : 0] on
+   block xillybus_core is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus idt_ins/idt_data[61 : 0] on block
+   xillybus_core is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus bar_registers_ins/dma_bufno_reg[31 : 0]
+   on block xillybus_core is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus bar_registers_ins/buf_ctrl_reg[26 : 0]
+   on block xillybus_core is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus pcie_recv_dma_ins/Madd_n0373_cy[12 : 0]
+   on block xillybus_core is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus packet_rx_axi_tlp_64_ins/header0[30 : 0]
+   on block xillybus_core is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus packet_rx_axi_tlp_64_ins/header1[15 : 2]
+   on block xillybus_core is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   unitw_1_ins/Madd_unitw_1_current_offset[12]_GND_17_o_add_1_OUT_cy[10 : 6] on
+   block xillybus_core is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus wr_arbiter_ins/roundrobin[2 : 0] on
+   block xillybus_core is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   messages_ins/GND_5_o_GND_5_o_mux_69_OUT[26 : 0] on block xillybus_core is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus messages_ins/msg_buf_w0[26 : 0] on block
+   xillybus_core is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file xillybus_core.edif ...
+ngc2edif: Total memory usage is 119236 kilobytes
+

@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:26 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Thu Mar  9 15:32:42 2017
+# Process ID: 22582
+# Current directory: /home/cho/hCODE_dev/hFPGA_z83/shell-vc707-xillybus-ap_fifo128/hcode_shell.runs/clk_wiz_0_synth_1
+# Command line: vivado -log clk_wiz_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_wiz_0.tcl
+# Log file: /home/cho/hCODE_dev/hFPGA_z83/shell-vc707-xillybus-ap_fifo128/hcode_shell.runs/clk_wiz_0_synth_1/clk_wiz_0.vds
+# Journal file: /home/cho/hCODE_dev/hFPGA_z83/shell-vc707-xillybus-ap_fifo128/hcode_shell.runs/clk_wiz_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source clk_wiz_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1142.906 ; gain = 227.191 ; free physical = 6083 ; free virtual = 40230
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [/home/cho/hCODE_dev/hFPGA_z83/shell-vc707-xillybus-ap_fifo128/core/clk_wiz_0/clk_wiz_0.v:72]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0_clk_wiz' [/home/cho/hCODE_dev/hFPGA_z83/shell-vc707-xillybus-ap_fifo128/core/clk_wiz_0/clk_wiz_0_clk_wiz.v:70]
+INFO: [Synth 8-638] synthesizing module 'IBUF' [/opt/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:14146]
+INFO: [Synth 8-256] done synthesizing module 'IBUF' (1#1) [/opt/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:14146]
+INFO: [Synth 8-638] synthesizing module 'MMCME2_ADV' [/opt/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20414]
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_ADV' (2#1) [/opt/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20414]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [/opt/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (3#1) [/opt/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0_clk_wiz' (4#1) [/home/cho/hCODE_dev/hFPGA_z83/shell-vc707-xillybus-ap_fifo128/core/clk_wiz_0/clk_wiz_0_clk_wiz.v:70]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0' (5#1) [/home/cho/hCODE_dev/hFPGA_z83/shell-vc707-xillybus-ap_fifo128/core/clk_wiz_0/clk_wiz_0.v:72]
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1183.375 ; gain = 267.660 ; free physical = 6033 ; free virtual = 40173
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1183.375 ; gain = 267.660 ; free physical = 6031 ; free virtual = 40171
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1559.316 ; gain = 0.000 ; free physical = 5239 ; free virtual = 39379
+Finished Constraint Validation : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1559.316 ; gain = 643.602 ; free physical = 5238 ; free virtual = 39379
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1559.316 ; gain = 643.602 ; free physical = 5238 ; free virtual = 39379
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1559.316 ; gain = 643.602 ; free physical = 5238 ; free virtual = 39379
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1559.316 ; gain = 643.602 ; free physical = 5238 ; free virtual = 39379
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:38 . Memory (MB): peak = 1559.316 ; gain = 643.602 ; free physical = 5238 ; free virtual = 39379
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 1559.316 ; gain = 643.602 ; free physical = 5223 ; free virtual = 39364
+Finished Timing Optimization : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 1559.316 ; gain = 643.602 ; free physical = 5223 ; free virtual = 39364
+Finished Technology Mapping : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 1559.316 ; gain = 643.602 ; free physical = 5214 ; free virtual = 39355
+Finished IO Insertion : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 1559.316 ; gain = 643.602 ; free physical = 5214 ; free virtual = 39355
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 1559.316 ; gain = 643.602 ; free physical = 5214 ; free virtual = 39355
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 1559.316 ; gain = 643.602 ; free physical = 5214 ; free virtual = 39355
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 1559.316 ; gain = 643.602 ; free physical = 5214 ; free virtual = 39355
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 1559.316 ; gain = 643.602 ; free physical = 5214 ; free virtual = 39355
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 1559.316 ; gain = 643.602 ; free physical = 5214 ; free virtual = 39355
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     5|
+|2     |MMCME2_ADV |     1|
+|3     |IBUF       |     1|
++------+-----------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 1559.316 ; gain = 643.602 ; free physical = 5214 ; free virtual = 39355
+get_clocks: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2021.789 ; gain = 448.477 ; free physical = 4681 ; free virtual = 38823
+synth_design: Time (s): cpu = 00:00:55 ; elapsed = 00:00:56 . Memory (MB): peak = 2021.789 ; gain = 1000.355 ; free physical = 4681 ; free virtual = 38822
